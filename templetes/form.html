@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %} ultramods chatbot {% endblock title %}
+
 {% block body %}
 
 <h1>ask anything you want : i.e. suggest me a movie, how are you or your maths and programming questions......</h1>
@@ -8,8 +8,8 @@
 <div class="ai">
 <form id="ai" method="post">
     {% csrf_token %}
-    <input type="text" class="form-control" name="user_input">
-    <button type="submit" class="btn btn-primary mt-3"> submit</button>
+    <input type="text" class="form-control" name="user_input" placeholder="type your question">
+    <button type="submit" id="srch" > submit</button>
 </form>
 </div>
 
