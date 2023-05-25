@@ -267,8 +267,7 @@ button:active {
 input[type='text']{
 	border-radius: 20px;
 	padding: 11px 30px;
-    width: 10px;
-    height: 5em;
+
 	
 }
 
@@ -302,13 +301,14 @@ input[type='text']{
     width: 100%;
     bottom: 0;
     left: 0;
+
     height: 50%;
     width: 100%;
    
     background-color: black;
-    position:absolute;
-    top:50%;
-    margin-top:-70px; /* this is half the height of your div*/  
+    position:fixed;
+    top:45%;
+    margin-top:-4rem /* this is half the height of your div*/  
      /*this is half of width of your div*/
 }
 
