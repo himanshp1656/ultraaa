@@ -110,7 +110,6 @@ a {
     width: 300px;
     height: 200px;
     object-fit: inherit;
-    aspect-ratio: 3/2;
     mix-blend-mode: multiply;
 }
 
@@ -249,11 +248,10 @@ button:active {
 
 /* searchbar */
 
-#searchbar{
-	padding-top: 20px;
-	margin-top: 0%;
+.searchbar{
+    width: 10px;
+    height: 5em;
 	border-radius: 5px 10px;
-	height: 20px;
 }
 #searchbtn{
 	
@@ -269,6 +267,8 @@ button:active {
 input[type='text']{
 	border-radius: 20px;
 	padding: 11px 30px;
+    width: 10px;
+    height: 5em;
 	
 }
 
@@ -310,4 +310,45 @@ input[type='text']{
     top:50%;
     margin-top:-70px; /* this is half the height of your div*/  
      /*this is half of width of your div*/
+}
+
+.navbar{
+    width:100%;
+    height: 10rem;
+    margin:0px auto;
+    left:0;
+    right:0;
+    padding:0;
+    font-size: 3em;
+
+    color: black;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    margin: 0 auto;
+}
+    
+
+.navbar-brand{
+    font-size: larger;
+    gap: 3rem;
+    color: black;
+}
+.dropdown-menu{
+    /* width: 50rem; */
+    font-size: larger;
+
+    background-color: #11cdd4;
+    color: whitesmoke;
+}
+.dropdown-item{
+    font-size: larger;
+
+    background-color: #11cdd4;
+    color: wheat;
+
+
+}
+.nav-item{
+
+    margin: 20px;
 }
