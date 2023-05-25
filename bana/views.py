@@ -8,7 +8,6 @@ from django.conf import settings
 from django.views import View
 from django.http import HttpResponseBadRequest
 import openai,os
-from dotenv import DotEnv
 from requests import post
 from rest_framework.filters import SearchFilter
 from django_filters.rest_framework import DjangoFilterBackend
